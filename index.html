@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaya Motors - Centro Automotriz | Expertos en Tu Vehículo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ================================ -->
+    <!-- HEADER / NAVEGACIÓN -->
+    <!-- ================================ -->
+    <header>
+        <nav>
+            <div class="logo">
+                <span class="logo-icon">🔧</span>
+                <span class="logo-text">JAYA MOTORS</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#trabajos">Trabajos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="menu-mobile">☰</div>
+        </nav>
+    </header>
+
+    <!-- ================================ -->
+    <!-- HERO SECTION (Sección Principal) -->
+    <!-- ================================ -->
+    <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-badge">⭐ Centro Automotriz de Confianza</div>
+            <h1>Tu Vehículo en las Mejores Manos</h1>
+            <p>Más de 15 años de experiencia brindando servicio automotriz de calidad. Mecánica, electricidad, frenos y mucho más.</p>
+            <div class="hero-buttons">
+                <a href="#" class="cta-button primary" onclick="openWhatsApp(); return false;">
+                    Agenda tu Cita
+                </a>
+                <a href="#servicios" class="cta-button secondary">
+                    Ver Servicios
+                </a>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="stat-item">
+                <div class="stat-number">15+</div>
+                <div class="stat-label">Años de Experiencia</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">5000+</div>
+                <div class="stat-label">Clientes Satisfechos</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Garantía</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================ -->
+    <!-- BARRA DE EMERGENCIA -->
+    <!-- ================================ -->
+    <section class="emergency-bar">
+        <div class="container">
+            <div class="emergency-content">
+                <span class="emergency-icon">🚨</span>
+                <span class="emergency-text">¿Emergencia en carretera? ¡Llámanos ahora!</span>
+                <a href="#" class="emergency-button" onclick="openWhatsApp(); return false;">
+                    Contactar Ahora
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================ -->
+    <!-- SECCIÓN POR QUÉ ELEGIRNOS -->
+    <!-- ================================ -->
+    <section class="porque-elegirnos" id="nosotros">
+        <div class="container">
+            <h2 class="section-title">¿Por Qué Elegirnos?</h2>
+            <p class="section-subtitle">La experiencia y calidad que tu vehículo merece</p>
+            
+            <div class="razones-grid">
+                <!-- Razón 1 -->
+                <div class="razon-card">
+                    <div class="razon-icon">👨‍🔧</div>
+                    <h3>Mecánicos Certificados</h3>
+                    <p>Nuestro equipo cuenta con más de 15 años de experiencia y certificaciones internacionales en mecánica automotriz.</p>
+                </div>
+
+                <!-- Razón 2 -->
+                <div class="razon-card">
+                    <div class="razon-icon">🛠️</div>
+                    <h3>Equipos de Última Generación</h3>
+                    <p>Contamos con la tecnología más avanzada para diagnosticar y reparar cualquier problema de tu vehículo.</p>
+                </div>
+
+                <!-- Razón 3 -->
+                <div class="razon-card">
+                    <div class="razon-icon">✅</div>
+                    <h3>Garantía de Calidad</h3>
+                    <p>Todos nuestros trabajos tienen garantía. Tu satisfacción y seguridad son nuestra prioridad número uno.</p>
+                </div>
+
+                <!-- Razón 4 -->
+                <div class="razon-card">
+                    <div class="razon-icon">💰</div>
+                    <h3>Precios Justos</h3>
+                    <p>Ofrecemos los mejores precios del mercado sin sacrificar la calidad del servicio ni las piezas.</p>
+                </div>
+
+                <!-- Razón 5 -->
+                <div class="razon-card">
+                    <div class="razon-icon">⚡</div>
+                    <h3>Servicio Rápido</h3>
+                    <p>Respetamos tu tiempo. La mayoría de trabajos los realizamos el mismo día con cita previa.</p>
+                </div>
+
+                <!-- Razón 6 -->
+                <div class="razon-card">
+                    <div class="razon-icon">📱</div>
+                    <h3>Atención Personalizada</h3>
+                    <p>Te mantenemos informado en cada paso del proceso. Comunicación directa y transparente siempre.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================ -->
+    <!-- SECCIÓN DE SERVICIOS -->
+    <!-- ================================ -->
+    <section class="servicios" id="servicios">
+        <div class="container">
+            <h2 class="section-title white">Nuestros Servicios</h2>
+            <p class="section-subtitle white">Soluciones completas para tu vehículo</p>
+            
+            <div class="servicios-grid">
+                <!-- Servicio 1 -->
+                <div class="servicio-card">
+                    <div class="servicio-icon">🔧</div>
+                    <h3>Mecánica General</h3>
+                    <ul>
+                        <li>Cambio de aceite y filtros</li>
+                        <li>Afinación de motor</li>
+                        <li>Reparación de motor</li>
+                        <li>Mantenimiento preventivo</li>
+                        <li>Diagnóstico computarizado</li>
+                    </ul>
+                </div>
+
+                <!-- Servicio 2 -->
+                <div class="servicio-card">
+                    <div class="servicio-icon">⚡</div>
+                    <h3>Sistema Eléctrico</h3>
+                    <ul>
+                        <li>Reparación de alternador</li>
+                        <li>Cambio de batería</li>
+                        <li>Sistema de arranque</li>
+                        <li>Instalación de alarmas</li>
+                        <li>Luces y sensores</li>
+                    </ul>
+                </div>
+
+                <!-- Servicio 3 -->
+                <div class="servicio-card">
+                    <div class="servicio-icon">🛞</div>
+                    <h3>Frenos y Suspensión</h3>
+                    <ul>
+                        <li>Cambio de pastillas</li>
+                        <li>Rectificación de discos</li>
+                        <li>Sistema de frenos ABS</li>
+                        <li>Amortiguadores</li>
+                        <li>Alineación y balanceo</li>
+                    </ul>
+                </div>
+
+                <!-- Servicio 4 -->
+                <div class="servicio-card">
+                    <div class="servicio-icon">❄️</div>
+                    <h3>Aire Acondicionado</h3>
+                    <ul>
+                        <li>Recarga de gas refrigerante</li>
+                        <li>Reparación de compresor</li>
+                        <li>Limpieza del sistema</li>
+                        <li>Cambio de filtros</li>
+                        <li>Diagnóstico completo</li>
+                    </ul>
+                </div>
+
+                <!-- Servicio 5 -->
+                <div class="servicio-card">
+                    <div class="servicio-icon">🔩</div>
+                    <h3>Transmisión</h3>
+                    <ul>
+                        <li>Cambio de aceite ATF</li>
+                        <li>Reparación de caja</li>
+                        <li>Clutch y embrague</li>
+                        <li>Diagnóstico especializado</li>
+                        <li>Mantenimiento preventivo</li>
+                    </ul>
+                </div>
+
+                <!-- Servicio 6 -->
+                <div class="servicio-card">
+                    <div class="servicio-icon">🔥</div>
+                    <h3>Sistema de Escape</h3>
+                    <ul>
+                        <li>Cambio de mofle</li>
+                        <li>Reparación de catalizador</li>
+                        <li>Soldadura especializada</li>
+                        <li>Sistema completo</li>
+                        <li>Inspección de emisiones</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="servicios-cta">
+                <p>¿No encuentras el servicio que buscas?</p>
+                <a href="#" class="cta-button white" onclick="openWhatsApp(); return false;">
+                    Consulta Aquí
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================ -->
+    <!-- SECCIÓN DE TRABAJOS/GALERÍA -->
+    <!-- ================================ -->
+    <section class="trabajos" id="trabajos">
+        <div class="container">
+            <h2 class="section-title">Nuestros Trabajos</h2>
+            <p class="section-subtitle">Calidad que habla por sí misma</p>
+            
+            <div class="trabajos-grid">
+                <!-- Trabajo 1 -->
+                <div class="trabajo-card">
+                    <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=600&q=80" alt="Mecánico trabajando en motor">
+                    <div class="trabajo-overlay">
+                        <h3>Reparación de Motor</h3>
+                        <p>Trabajo completo y garantizado</p>
+                    </div>
+                </div>
+
+                <!-- Trabajo 2 -->
+                <div class="trabajo-card">
+                    <img src="https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=600&q=80" alt="Cambio de frenos">
+                    <div class="trabajo-overlay">
+                        <h3>Sistema de Frenos</h3>
+                        <p>Seguridad ante todo</p>
+                    </div>
+                </div>
+
+                <!-- Trabajo 3 -->
+                <div class="trabajo-card">
+                    <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=600&q=80" alt="Vehículo en taller">
+                    <div class="trabajo-overlay">
+                        <h3>Mantenimiento Completo</h3>
+                        <p>Tu carro como nuevo</p>
+                    </div>
+                </div>
+
+                <!-- Trabajo 4 -->
+                <div class="trabajo-card">
+                    <img src="https://images.unsplash.com/photo-1632823469862-8b67f00f76e8?w=600&q=80" alt="Diagnóstico computarizado">
+                    <div class="trabajo-overlay">
+                        <h3>Diagnóstico Digital</h3>
+                        <p>Tecnología de punta</p>
+                    </div>
+                </div>
+
+                <!-- Trabajo 5 -->
+                <div class="trabajo-card">
+                    <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=600&q=80" alt="Taller profesional">
+                    <div class="trabajo-overlay">
+                        <h3>Instalaciones Modernas</h3>
+                        <p>Equipado para todo</p>
+                    </div>
+                </div>
+
+                <!-- Trabajo 6 -->
+                <div class="trabajo-card">
+                    <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=600&q=80" alt="Equipo de trabajo">
+                    <div class="trabajo-overlay">
+                        <h3>Equipo Profesional</h3>
+                        <p>Expertos en acción</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================ -->
+    <!-- SECCIÓN DE TESTIMONIOS -->
+    <!-- ================================ -->
+    <section class="testimonios">
+        <div class="container">
+            <h2 class="section-title">Lo Que Dicen Nuestros Clientes</h2>
+            <p class="section-subtitle">Experiencias reales de personas satisfechas</p>
+            
+            <div class="testimonios-grid">
+                <!-- Testimonio 1 -->
+                <div class="testimonio-card">
+                    <div class="testimonio-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonio-text">"Excelente servicio! Me arreglaron el motor de mi camioneta en tiempo récord. Son super profesionales y honestos con los precios. 100% recomendado."</p>
+                    <div class="testimonio-autor">
+                        <strong>Miguel Ángel Santos</strong>
+                        <span>Propietario Toyota Hilux</span>
+                    </div>
+                </div>
+
+                <!-- Testimonio 2 -->
+                <div class="testimonio-card">
+                    <div class="testimonio-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonio-text">"Llevé mi carro porque hacía un ruido raro y me explicaron todo con detalle. El trabajo quedó perfecto y ni siquiera cobraron tanto como pensé. Volveré sin duda."</p>
+                    <div class="testimonio-autor">
+                        <strong>Carmen Rodríguez</strong>
+                        <span>Propietaria Honda Civic</span>
+                    </div>
+                </div>
+
+                <!-- Testimonio 3 -->
+                <div class="testimonio-card">
+                    <div class="testimonio-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonio-text">"Los mejores! Me solucionaron un problema eléctrico que nadie más pudo resolver. Son rápidos, eficientes y muy atentos. Este es mi taller de confianza."</p>
+                    <div class="testimonio-autor">
+                        <strong>Rafael Pérez</strong>
+                        <span>Propietario Nissan Sentra</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================ -->
+    <!-- SECCIÓN CTA FINAL -->
+    <!-- ================================ -->
+    <section class="cta-final" id="contacto">
+        <div class="container">
+            <div class="cta-content">
+                <h2>¿Listo para Darle el Mejor Servicio a Tu Vehículo?</h2>
+                <p>No esperes a que un pequeño problema se convierta en uno grande. Agenda tu cita hoy y mantén tu vehículo en óptimas condiciones.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="cta-button large" onclick="openWhatsApp(); return false;">
+                        📱 Contactar por WhatsApp
+                    </a>
+                    <a href="tel:+18091234567" class="cta-button large secondary">
+                        📞 Llamar Ahora
+                    </a>
+                </div>
+                <div class="cta-info">
+                    <div class="info-item">
+                        <strong>📍 Ubicación:</strong>
+                        <span>Calle Principal #123, Santiago</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>🕐 Horario:</strong>
+                        <span>Lun - Sáb: 8:00 AM - 6:00 PM</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================ -->
+    <!-- FOOTER -->
+    <!-- ================================ -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4>JAYA MOTORS</h4>
+                    <p>Tu centro automotriz de confianza. Más de 15 años cuidando tu vehículo.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#trabajos">Trabajos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li>📞 (809) 123-4567</li>
+                        <li>📧 info@jayamotors.com</li>
+                        <li>📍 Santiago, R.D.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Jaya Motors. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ================================ -->
+    <!-- BOTÓN FLOTANTE DE WHATSAPP -->
+    <!-- ================================ -->
+    <a href="#" class="whatsapp-float" onclick="openWhatsApp(); return false;">
+        <svg viewBox="0 0 32 32" fill="currentColor">
+            <path d="M16 0C7.164 0 0 7.164 0 16c0 2.832.74 5.488 2.032 7.792L0 32l8.416-2.032C10.72 31.26 13.376 32 16 32c8.836 0 16-7.164 16-16S24.836 0 16 0zm8.064 22.528c-.36.992-1.776 1.816-2.912 2.056-.76.16-1.752.288-5.088-1.088-4.268-1.76-7.028-6.088-7.24-6.368-.208-.28-1.696-2.256-1.696-4.304s1.072-3.056 1.456-3.472c.384-.416.84-.52 1.12-.52.28 0 .56 0 .8.016.256.016.6-.096.944.72.36.84 1.216 2.968 1.32 3.184.104.216.176.472.036.752-.136.28-.208.456-.416.704-.208.248-.436.552-.624.744-.208.216-.424.448-.184.88.24.416 1.072 1.768 2.304 2.864 1.584 1.408 2.92 1.848 3.336 2.056.416.208.656.176.896-.104.24-.28 1.032-1.2 1.304-1.616.28-.416.552-.344.928-.208.376.136 2.384 1.128 2.792 1.328.416.208.688.312.792.48.096.176.096 1 -.264 1.992z"/>
+        </svg>
+    </a>
+
+    <!-- ================================ -->
+    <!-- JAVASCRIPT -->
+    <!-- ================================ -->
+    <script>
+        /**
+         * Función para abrir WhatsApp con mensaje predefinido
+         * IMPORTANTE: Reemplaza el número de teléfono con el número real
+         */
+        function openWhatsApp() {
+            // Reemplaza este número con el número de WhatsApp real
+            // Formato: código de país + número sin espacios ni guiones
+            const phoneNumber = '18091234567'; 
+            
+            // Mensaje predefinido
+            const message = encodeURIComponent('Hola Jaya Motors! Me gustaría agendar una cita para mi vehículo 🚗');
+            
+            // Abre WhatsApp
+            window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
+        }
+
+        /**
+         * Smooth scroll para navegación
+         */
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                if (this.getAttribute('href') !== '#') {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                }
+            });
+        });
+
+        /**
+         * Animación de entrada para elementos
+         */
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, {
+            threshold: 0.1
+        });
+
+        // Observa todas las tarjetas
+        document.querySelectorAll('.razon-card, .servicio-card, .testimonio-card, .trabajo-card').forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(20px)';
+            card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(card);
+        });
+
+        /**
+         * Header cambia de color al hacer scroll
+         */
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.background = 'rgba(220, 38, 38, 0.98)';
+                header.style.boxShadow = '0 4px 20px rgba(0,0,0,0.3)';
+            } else {
+                header.style.background = 'linear-gradient(135deg, #dc2626 0%, #1e40af 100%)';
+                header.style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
+            }
+        });
+    </script>
+</body>
+</html>
